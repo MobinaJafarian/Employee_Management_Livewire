@@ -47,9 +47,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @forelse ($users as $user)
+                        @forelse ($users as $key => $user)
                             <tr>
-                                <th scope="row">{{ $user->id }}</th>
+                                <th scope="row">{{ $key += 1 }}</th>
                                 <td>{{ $user->username }}</td>
                                 <td>{{ $user->email }}</td>
                                 <td>
