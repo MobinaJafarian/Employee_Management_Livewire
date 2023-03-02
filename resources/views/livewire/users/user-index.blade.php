@@ -150,7 +150,7 @@
                                     @enderror
                                 </div>
                             </div>
-                            {{-- @if (!$editMode)
+                            @if (!$editMode)
                                 <div class="form-group row">
                                     <label for="password"
                                         class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
@@ -167,17 +167,17 @@
                                         @enderror
                                     </div>
                                 </div>
-                            @endif --}}
+                            @endif
 
                         </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" wire:click="closeModal">Close</button>
-                        {{-- @if ($editMode)
+                        @if ($editMode)
                             <button type="button" class="btn btn-primary" wire:click="updateUser">Update User</button>
                         @else
                             <button type="button" class="btn btn-primary" wire:click="storeUser">Store User</button>
-                        @endif --}}
+                        @endif
                     </div>
                 </div>
             </div>
