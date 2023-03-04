@@ -47,9 +47,9 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @forelse ($countries as $country)
+                        @forelse ($countries as $key => $country)
                             <tr>
-                                <th scope="row">{{ $country->id }}</th>
+                                <th scope="row">{{ $key += 1 }}</th>
                                 <td>{{ $country->country_code }}</td>
                                 <td>{{ $country->name }}</td>
                                 <td>
