@@ -21,7 +21,17 @@ Employee Management Application using Livewire
 
 
 ## Features
-- Admin panel
+- Employee Management
+    - list of employees with search.
+    - filter by employee name and department.
+    - create , update & delete employees.
+- System Management
+    - country
+    - state
+    - city
+    - department
+- User Management
+- Authentication
 
 
 ## Screenshots
