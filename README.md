@@ -1,5 +1,5 @@
-# Employees Management with Livewire
-Employees Management
+# Employee Management with Livewire
+Employee Management
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -25,7 +25,13 @@ Employee Management Application using Livewire
 
 
 ## Screenshots
-![laravel blog screenshot](./public/images/screenshots/Screenshot%202022-11-03%20at%2009-29-27%20%D9%88%D8%A8%D9%84%D8%A7%DA%AF%20-%20%D8%B5%D9%81%D8%AD%D9%87%20%D8%A7%D8%B5%D9%84%DB%8C.png)
+![Register Page screenshot](./public/images/screenshots/Screenshot%20%20Register.png)
+
+![Employees Page screenshot](./public/images/screenshots/Screenshot%20%20Dashboard-employees.png)
+
+![Country Page screenshot](./public/images/screenshots/Screenshot%20Dashboard-country.png)
+
+![Users Page screenshot](./public/images/screenshots/Screenshot%20Dashboard-users.png)
 
 
 
@@ -42,6 +48,7 @@ then
 
 ```
 php artisan serve
+npm install && npm run dev
 ```
 
 
